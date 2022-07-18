@@ -6,21 +6,24 @@ We will use the imbalanced-learn and scikit-learn libraries to build and evaluat
 to reduce bias and provide accurate predictions.  
 
 ### Results: 
-#### Naive Random Oversampling 
+1. Naive Random Oversampling 
 - balanced accuracy score = 0.625
+- precision = 1 for low risk / 0.01 for high risk
+- recall = 0.60 for low risk / 0.65 for high risk
 - confusion matrix 
+
 ![1](https://github.com/lindseyasterman/Credit_Risk_Analysis/blob/main/images/1-randomoversample.png)
 
--precision and recall 
-![1-1](https://github.com/lindseyasterman/Credit_Risk_Analysis/blob/main/images/1-1.png) 
 
-#### SMOTE Oversampling
+2. SMOTE Oversampling
 - balanced accuracy score = 0.651
+- precision = 1 for low risk / 0.01 for high risk
+- recall = 0.66 for low risk / 0.64 for high risk
 - confusion matrix 
+
 ![2](https://github.com/lindseyasterman/Credit_Risk_Analysis/blob/main/images/2-smoteoversample.png)
 
--precision and recall 
-![2-2](https://github.com/lindseyasterman/Credit_Risk_Analysis/blob/main/images/2-2.png) 
+
 
 3.
 4.
